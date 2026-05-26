@@ -1,6 +1,10 @@
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
+import os
+
+# Ensure data directory exists
+os.makedirs("./data", exist_ok=True)
 
 SQLALCHEMY_DATABASE_URL = 'sqlite:///./data/app.db'
 
