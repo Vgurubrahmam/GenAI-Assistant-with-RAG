@@ -20,7 +20,14 @@ app=FastAPI(title="Groq + ChromaDB RAG Backend v2", lifespan=lifespan)
 # Add CORS middleware to allow frontend requests
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+        "https://genai-assistant-with-rag-5gej.onrender.com",
+        "https://gen-ai-assistant-with-rag.vercel.app",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
