@@ -27,6 +27,7 @@ app.add_middleware(
         "http://127.0.0.1:3000",
         "https://genai-assistant-with-rag-5gej.onrender.com",
         "https://gen-ai-assistant-with-rag.vercel.app",
+        "https://genai-assistant-with-rag-api.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],

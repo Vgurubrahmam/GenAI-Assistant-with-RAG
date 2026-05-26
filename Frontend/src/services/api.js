@@ -12,7 +12,9 @@
  * Base URL: http://127.0.0.1:8000
  */
 
-const API_BASE_URL = 'http://127.0.0.1:8000'
+const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+  ? 'http://127.0.0.1:8000'
+  : 'https://genai-assistant-with-rag-5gej.onrender.com'
 
 /**
  * ============================================================================
