@@ -10,3 +10,5 @@ torch
 sentence-transformers
 python-multipart
 PyPDF2
+sqlalchemy
+aiosqlite
