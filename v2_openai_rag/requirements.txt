@@ -1,3 +1,4 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
 fastapi==0.115.0
 pydantic==2.6.1
 pydantic-settings==2.1.0
@@ -5,6 +6,7 @@ uvicorn==0.30.0
 python-dotenv
 groq
 chromadb
+torch
 sentence-transformers
 python-multipart
 PyPDF2
