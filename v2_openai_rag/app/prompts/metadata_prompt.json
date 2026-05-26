@@ -1,0 +1,6 @@
+{
+  "system": "You are an expert document analyzer. Extract metadata strictly in JSON format.",
+  "user": "Analyze the document and return metadata in this JSON schema:\n\n{\n  \"title\": \"\",\n  \"domain\": \"\",\n  \"summary\": \"\",\n  \"keywords\": []\n}",
+  "temperature": 0.2,
+  "max_tokens": 300
+}
